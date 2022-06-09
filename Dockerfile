@@ -1,3 +1,3 @@
-FROM gohugoio/hugo
+FROM nginx
 COPY . /src
 EXPOSE 1313
