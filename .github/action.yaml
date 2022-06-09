@@ -1,0 +1,5 @@
+steps:
+- name: Checkout repository and submodules
+  uses: actions/checkout@v2
+  with:
+    submodules: recursive
