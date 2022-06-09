@@ -42,7 +42,7 @@ jobs:
         with:
           push: true # Will only build if this is not here
           tags: |
-            ghcr.io/${{ github.repository }}:${{ github.ref }}
+            ghcr.io/${{ github.repository }}:v1
             ghcr.io/${{ github.repository }}:latest
 
       # Runs a single command using the runners shell
